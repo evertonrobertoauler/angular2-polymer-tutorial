@@ -2,7 +2,7 @@
 
 ## Try it out
 
-    npm install -g angular-cli bower http-server
+    npm install -g angular-cli bower
     git clone https://github.com/evertonrobertoauler/angular2-polymer-tutorial.git
     cd angular2-polymer-tutorial
     npm install
@@ -23,6 +23,7 @@
 
     npm run build:prod
 
-## Serving the production build
+## Serving the production build + gzip
 
-    http-server dist
+    npm run build:prod && npm run serve:gzip
+
