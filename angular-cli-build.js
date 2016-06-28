@@ -19,8 +19,7 @@ module.exports = function(defaults) {
       'vendor/reflect-metadata/Reflect.js',
       'vendor/systemjs/dist/system.src.js',
       'vendor/zone.js/dist/zone.js',
-      'bower_components/webcomponentsjs/webcomponents-lite.js',
-      'bower_components/vaadin-grid/vaadin-grid.min.js'
+      'bower_components/webcomponentsjs/webcomponents-lite.js'
     ]
   });
 };
